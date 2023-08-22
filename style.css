@@ -1,0 +1,94 @@
+/* Estilos globais */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .header-main {
+        text-align: center;
+        padding: 20px;
+    }
+
+    
+    .section-main, .one-box-article {
+        display: block;
+        margin: 10px;
+    }
+
+    
+    .box-main, .box-one, .two-box-article {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+  
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Estilos para dispositivos móveis (até 600px de largura) */
+@media screen and (max-width: 600px) {
+    /* Resto do código para dispositivos móveis */
+
+    .section-main p{
+        color: #A9A9A9;
+    }
+
+    .one-box-article img{
+        width: 450px;
+    }
+
+    .section-footer p{
+        color: #A9A9A9;
+        text-align: center;
+        font-size: 0.8em;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+  
+    .main-sid .font-one{
+        color: #A9A9A9;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 0.8em;
+        font-style: italic;
+    }
+
+ 
+
+    .header-main p{
+        color: #A9A9A9;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 601px) {
+    
+    .header-main {
+        background-color: #f0f0f0;
+    }
+
+    .section-main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box-main, .box-one, .two-box-article {
+        width: calc(33.33% - 20px); /* Espaço entre os elementos */
+    }
+
+   
+}
+
+

@@ -1,0 +1,41 @@
+
+@media screen and (max-width: 768px) {
+    /* Define estilos para todos os elementos no contexto dessa media query */
+    * {
+        padding:0;
+        margin:0;
+        vertical-align:baseline;
+        list-style:none;
+        border:0
+    }
+    
+    /* Estilos para o header */
+    .header-main {
+        text-align: center; /* Centraliza o conteúdo do header */
+    }
+
+    /* Estilos para os artigos (boxes) */
+    .box-one, .box-two, article {
+        padding: 15px; /* Adiciona espaçamento interno nos artigos */
+        margin: 0 auto; /* Centraliza os articles horizontalmente */
+    }
+
+    /* Centraliza as imagens dentro dos articles */
+    .box-one img, .box-two img, article img {
+        display: block; /* Faz com que as imagens se comportem como blocos */
+        margin: 0 auto; /* Centraliza as imagens horizontalmente */
+    }
+
+    /* Estilos para o grid no main */
+    .main-sid section {
+        display: grid; /* Define um grid para os artigos no main */
+        grid-template-columns: 2fr; /* Define o tamanho da coluna no grid */
+        gap: 5px; /* Define o espaçamento entre os artigos no grid */
+    }
+
+    /* Estilos para o footer */
+    .footer-and {
+        text-align: center; /* Centraliza o conteúdo do footer */
+        justify-content: center; /* Centraliza os elementos horizontalmente no footer */
+    }
+}
